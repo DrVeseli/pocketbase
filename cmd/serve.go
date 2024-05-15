@@ -17,7 +17,7 @@ func NewServeCommand(app core.App, showStartBanner bool) *cobra.Command {
 	var httpsAddr string
 
 	command := &cobra.Command{
-		Use:          "serve [domain(s)]",
+		Use:          "serviraj [domain(s)]",
 		Args:         cobra.ArbitraryArgs,
 		Short:        "Starts the web server (default to 127.0.0.1:8090 if no domain is specified)",
 		SilenceUsage: true,
